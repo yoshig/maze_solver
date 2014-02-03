@@ -1,0 +1,5 @@
+I had originally created a maze_solver a few days ago at the beginning of App Academy to see if I would be able to get my piece to the end of the maze. Originally my strategy was to move forward (any direction, I had chosen up) until you hit a wall. When you hit a wall, you begin hugging a wall until you get to the beginning.
+
+My new system now looks at all available routes out from the original square until it finds the ending, then using a system of hashes, traces the breadcrumbs back to the beginning of the maze. I then record this path into the maze to show the fastest route to the end of the maze. Of course, this is still very basic, and only reads in simple text files. It is still very limited. However, it is functional.
+
+I also built in the functionality of deciding if diagonals are considered valid moves.
